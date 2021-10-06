@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preupuestos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Presupuestos</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./presupuestos.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="password.html">Cambiar contraseña</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row text-center">
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <table class="table">
+                        <thead class="table-dark">
+                            <h3>Presupuestos</h3>
+                            <tr>
+                                <th scope="col">Id presupuesto</th>
+                                <th scope="col">Fecha creacion </th>
+                                <th scope="col">Proyecto</th>
+                                <th scope="col">Version</th>
+                                <th scope="col">Opciones</th>
+                                <th><button type="button" class="btn btn-outline-success">Nuevo</button></th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenedor-Presupuesto">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Resumen financiero</h3>
+                        <tr>
+                            <th scope="col">Ventas</th>
+                            <th scope="col">Costos</th>
+                            <th scope="col">Margen</th>
+                            <th scope="col">Porcentaje</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Flujo de efectivo</h3>
+                        <tr>
+                            <th scope="col">Titulos</th>
+                            <th scope="col">Ingresos</th>
+                            <th scope="col">Egresos</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Acumulado </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-grid gap-2 d-md-block contenedor-botones">
+                    <button type="button" class="btn btn-outline-success">Agregar</button>
+                    <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Estado de resultados</h3>
+                        <tr>
+                            <th scope="col">Titulos</th>
+                            <th scope="col">Ventas</th>
+                            <th scope="col">Costos</th>
+                            <th scope="col">Margen</th>
+                            <th scope="col">Saldo final</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Ingresos</h3>
+                        <tr>
+                            <th scope="col">Concepto</th>
+                            <th scope="col">Ingreso</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Opciones</th>
+                            <th><button type="button" class="btn btn-outline-success">Agregar</button></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td><button type="button" class="btn btn-outline-danger">Eliminar</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Costos Directos </h3>
+                        <tr>
+                            <th scope="col">Concepto</th>
+                            <th scope="col">Costo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-grid gap-2 d-md-block contenedor-botones">
+                    <button type="button" class="btn btn-outline-success">Agregar</button>
+                    <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Gastos Administrativos</h3>
+                        <tr>
+                            <th scope="col">Concepto</th>
+                            <th scope="col">Gasto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-grid gap-2 d-md-block contenedor-botones">
+                    <button type="button" class="btn btn-outline-success">Agregar</button>
+                    <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Recursos</h3>
+                        <tr>
+                            <th scope="col">Recurso</th>
+                            <th scope="col">Porcentaje de asignacion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-grid gap-2 d-md-block contenedor-botones">
+                    <button type="button" class="btn btn-outline-success">Agregar</button>
+                    <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Costos</h3>
+                        <tr>
+                            <th scope="col">Recurso</th>
+                            <th scope="col">Costo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <h3>Resumen Costos Recursos</h3>
+                        <tr>
+                            <th scope="col">Recurso</th>
+                            <th scope="col">Costo</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="table-dark">
+                        <div class="d-grid gap-2 d-md-block contenedor-botones">
+                            <button type="button" class="btn btn-outline-success">Guardar</button>
+                            <button type="button" class="btn btn-outline-danger">Cancelar</button>
+                        </div>
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                        <script src="./scripts/jquery.js"></script>
+                        <script src="./scripts/index.js"></script>
+
+</body>
+
+</html>
